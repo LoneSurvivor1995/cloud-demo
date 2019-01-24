@@ -9,31 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>three-cloud</artifactId>
+	<artifactId>eureka-server-double</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>three-cloud</name>
+	<name>eureka-server-double</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Greenwich.RC2</spring-cloud.version>
 	</properties>
-
-	<modules>
-		<module>eureka-consumer-1</module>
-		<module>eureka-consumer-2</module>
-		<module>eureka-consumer-3</module>
-		<module>eureka-consumer-4</module>
-		<module>eureka-consumer-5</module>
-		<module>eureka-consumer-6</module>
-		<module>eureka-consumer-7</module>
-		<module>eureka-consumer-8</module>
-		<module>eureka-provider</module>
-		<module>eureka-provider-copy</module>
-		<module>eureka-provider-other</module>
-		<module>eureka-server</module>
-		<module>eureka-server-double</module>
-	</modules>
 
 	<dependencies>
 		<dependency>
@@ -45,10 +29,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
 		</dependency>
 	</dependencies>
 
