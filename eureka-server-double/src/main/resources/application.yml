@@ -1,3 +1,7 @@
+#修改本地配置
 #C:\Windows\System32\drivers\etc
 #127.0.0.1 peer1
 #127.0.0.1 peer2
+#依次启动
+# java -jar eureka-server-double-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
+# java -jar eureka-server-double-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
