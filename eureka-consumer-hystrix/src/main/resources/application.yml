@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: SERVICE-HYSTRIX
+    name: service-hystrix
 
 eureka:
   client:
